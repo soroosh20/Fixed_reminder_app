@@ -1,6 +1,8 @@
 let Database = {
     cindy: {
-        reminders: [{id: 1, title: "abc", description: "abcabc", completed: false}]
+        username: "cindy@aaa.com",
+        password: "pass",
+        reminders: [{id: 1, title: "abc", description: "abcabc", completed: false, subtask: "", tags: "" }]
     },
     alex: {
         reminders: []
@@ -8,3 +10,5 @@ let Database = {
 }
 
 module.exports = Database;
+
+
